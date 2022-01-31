@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+   
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+font-family: 'Times New Roman', Times, serif;
+color: white;
+display: flex ;
+justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 2rem;
+    width: 20rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 50%;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+h2{
+    margin-bottom: 1rem;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-bottom: 1rem;
+}
+ul li a p {
+    margin-left: 1rem;
+    display: flex;
+}
+.card{
+    width: 40px;
+    height: 40px;
+    background-color:orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.card:hover{
+    transition: 0.9s;
+    transform: rotate(180deg);
+}
+
+
